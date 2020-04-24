@@ -1,0 +1,42 @@
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo {
+    padding-right: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+.today {
+    display: flex;
+    justify-content: center;
+    font-size: 1vh;
+    color: var(--LimeGreen);
+    padding: 2.5vh;
+}
+
+
+.number {
+    text-align: center;
+    font-size: 3vh;
+    padding-top: 2vh;
+}
+
+.fall {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5vh;
+}
+
+.containerB {
+    background-color: var(--DarkDesaturatedBlueCardBG);
+    border-top: var(--accent) 0.5vh solid;
+    padding: 3vh 6vh 1vh 6vh;
+    border-radius: 0.5vh;
+    color: var(--WhiteText);
+}
+
+

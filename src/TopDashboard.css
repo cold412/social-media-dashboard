@@ -1,0 +1,21 @@
+.mediaContainer {
+    padding: 10vh;
+    background-color: var(--VeryDarkBlueBG);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h1 {
+    color: var(--WhiteText);
+}
+
+
+.left h3, .switch {
+    color: var(--DesaturatedBlueText);
+}
+
+
+.switch {
+    align-items: center;
+}
+
