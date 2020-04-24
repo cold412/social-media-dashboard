@@ -10,9 +10,11 @@
   --BrightRed: hsl(356, 69%, 56%);
   --Facebook: hsl(195, 100%, 50%);
   --Twitter: hsl(203, 89%, 53%);
-  --Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+  --Instagram: linear-gradient(#fdc468,  #df4996);
+
+
   --YouTube: hsl(348, 97%, 39%);
-  --ToggleDark: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+  --ToggleDark: linear gradient hsl(210, 78%, 56%) to #3eda82;
   --ToggleLight: hsl(230, 22%, 74%);
 /*   DarkTheme */
   --VeryDarkBlueBG: hsl(230, 17%, 14%);
@@ -34,8 +36,38 @@
   justify-content: space-around;
 }
 
+.SCont {
+  display: flex;
+  justify-content: space-around;
+}
 body {
     background-color: var(--VeryDarkBlueBG);
+}
+
+.box4 .todayNumber {
+  color: var(--BrightRed);
+}
+
+
+
+.box1 {
+    border-top: var(--Facebook) 0.5vh solid;
+    border-radius: 0.5vh;
+}
+
+.box2 {
+    border-top: var(--Twitter) 0.5vh solid;
+    border-radius: 0.5vh;
+}
+
+.box3 {
+    border-top: yellow 0.5vh solid;
+    border-radius: 0.5vh;
+}
+
+.box4 {
+    border-top: var(--YouTube) 0.5vh solid;
+    border-radius: 0.5vh;
 }
 
 

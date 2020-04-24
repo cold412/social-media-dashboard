@@ -1,0 +1,14 @@
+
+.containerS {
+    background-color: var(--DarkDesaturatedBlueCardBG);
+    padding: 3vh 6vh 1vh 6vh;
+    color: var(--WhiteText);
+    border-radius: 0.5vh;
+}
+
+
+.Ssocial {
+    display: flex;
+    justify-content: space-between;
+    width: 30vh;
+}

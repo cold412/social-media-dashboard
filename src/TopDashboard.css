@@ -1,5 +1,5 @@
 .mediaContainer {
-    padding: 10vh;
+    padding: 5.5vh 11vh 5.5vh 11vh;
     background-color: var(--VeryDarkBlueBG);
     display: flex;
     justify-content: space-between;

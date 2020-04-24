@@ -15,8 +15,12 @@ const BigContainer = (props) => {
             </div>
             <div className="fall">{props.fallsub}</div>
             <div className="today">
+                <div className="arrow">
                 <img src={props.Up} alt="" />
+                </div>
+                <div className="todayNumber">
                 <h3>{props.numberToday} Today</h3>
+                </div>
             </div>
         </div>
     )

@@ -33,10 +33,13 @@
 
 .containerB {
     background-color: var(--DarkDesaturatedBlueCardBG);
-    border-top: var(--accent) 0.5vh solid;
     padding: 3vh 6vh 1vh 6vh;
-    border-radius: 0.5vh;
     color: var(--WhiteText);
+    border-radius: 0.5vh;
 }
 
 
+
+.user, .fall {
+    color: var(--DesaturatedBlueText);
+}
