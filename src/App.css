@@ -36,10 +36,7 @@
   justify-content: space-around;
 }
 
-.SCont {
-  display: flex;
-  justify-content: space-around;
-}
+
 body {
     background-color: var(--VeryDarkBlueBG);
 }
@@ -68,6 +65,25 @@ body {
 .box4 {
     border-top: var(--YouTube) 0.5vh solid;
     border-radius: 0.5vh;
+}
+
+
+.SCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 15vh;
+  }
+
+
+.sbox {
+  flex: 1 0 21%;
+  padding-top: 2vh;
+}
+
+
+.negative .todayNumber{
+  color: var(--BrightRed)
 }
 
 

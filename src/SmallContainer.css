@@ -1,14 +1,40 @@
 
 .containerS {
     background-color: var(--DarkDesaturatedBlueCardBG);
-    padding: 3vh 6vh 1vh 6vh;
     color: var(--WhiteText);
+    padding: 3vh;
     border-radius: 0.5vh;
+    height: 9vh;
+    width: 22vh;
 }
 
 
 .Ssocial {
     display: flex;
     justify-content: space-between;
-    width: 30vh;
+}
+
+
+.proc {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1rem;
+}
+
+
+
+.SNumbers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5vh;
+}
+
+
+.Spage {
+    color: var(--DesaturatedBlueText);
+}
+
+
+.Value {
+    font-size: 2rem;
 }

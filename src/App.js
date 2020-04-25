@@ -44,10 +44,60 @@ const App = () => {
       <div className="BottomPart">
 
         <div className="BottomCont">
-        <BottomDashboard />
+          <BottomDashboard />
         </div>
         <div className="SCont">
-          <SmallContainer page="Page Views" image2={FacebookIcon} value="87" Up2={Up} procValue="3%"/>
+          <div className="sbox">
+
+            <SmallContainer page="Page Views" image2={FacebookIcon} value="87" Up2={Up} procValue="3%" />
+
+          </div>
+          <div className="sbox" >
+                <div className="negative">
+
+            <SmallContainer page="Likes" image2={FacebookIcon} value="52" Up2={Down} procValue="2%" />
+
+                </div>
+
+          </div>
+          <div className="sbox">
+
+            <SmallContainer page="Likes" image2={Instagram} value="5462" Up2={Up} procValue="2257%" />
+
+          </div>
+          <div className="sbox">
+
+            <SmallContainer page="Profile Views" image2={Instagram} value="52k" Up2={Up} procValue="1375%" />
+
+          </div>
+          <div className="sbox">
+
+
+            <SmallContainer page="Retweets" image2={Twitter} value="117" Up2={Up} procValue="303%" />
+          </div>
+          <div className="sbox">
+
+            <SmallContainer page="Likes" image2={Twitter} value="507" Up2={Up} procValue="553%" />
+
+          </div>
+          <div className="sbox">
+
+                <div className="negative">
+
+
+            <SmallContainer page="Likes" image2={YouTube} value="107" Up2={Down} procValue="19%" />
+                </div>
+
+          </div>
+          <div className="sbox">
+
+                <div className="negative">
+
+            <SmallContainer page="Total Views" image2={YouTube} value="1407" Up2={Down} procValue="12%" />
+
+                </div>
+
+          </div>
         </div>
       </div>
     </div>
