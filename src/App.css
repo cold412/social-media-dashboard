@@ -10,7 +10,7 @@
   --BrightRed: hsl(356, 69%, 56%);
   --Facebook: hsl(195, 100%, 50%);
   --Twitter: hsl(203, 89%, 53%);
-  --Instagram: linear-gradient(#fdc468,  #df4996);
+  --Instagram:  hsl(37, 97%, 70%);
 
 
   --YouTube: hsl(348, 97%, 39%);
@@ -31,9 +31,14 @@
 }
 
 
+
+
 .BCont {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-rows:  25vh; 
+  grid-template-columns: 25vh 25vh 25vh 25vh ;
+  grid-column-gap: 25vh;
+  justify-content: center;
 }
 
 
@@ -46,45 +51,59 @@ body {
 }
 
 
-
 .box1 {
-    border-top: var(--Facebook) 0.5vh solid;
-    border-radius: 0.5vh;
+  border-top: 5px var(--Facebook) solid;
+  width: 29vh;
+  border-radius: 5px;
+}
+
+.box2Test {
+  background-color: rgb(211, 2, 2);
 }
 
 .box2 {
-    border-top: var(--Twitter) 0.5vh solid;
-    border-radius: 0.5vh;
+  border-top: 5px var(--Twitter) solid;
+  width: 29vh;
+  border-radius: 5px;
 }
+
 
 .box3 {
-    border-top: yellow 0.5vh solid;
-    border-radius: 0.5vh;
+  border-top: 5px var(--Instagram) solid;
+  width: 29vh;
+  border-radius: 5px;
 }
+
 
 .box4 {
-    border-top: var(--YouTube) 0.5vh solid;
-    border-radius: 0.5vh;
+  border-top: 5px var(--YouTube) solid;
+  width: 29vh;
+  border-radius: 5px;
 }
 
 
-.SCont {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-left: 15vh;
-  }
 
 
-.sbox {
-  flex: 1 0 21%;
-  padding-top: 2vh;
-}
+
 
 
 .negative .todayNumber{
   color: var(--BrightRed)
 }
+
+
+.positive .todayNumber{
+  color: var(--LimeGreen)
+}
+
+.SCont {
+  display: grid;
+  grid-template-rows: 17vh; 
+  grid-template-columns: 25vh 25vh 25vh 25vh ;
+  grid-column-gap: 25vh;
+  justify-content: center;
+}
+
 
 
 

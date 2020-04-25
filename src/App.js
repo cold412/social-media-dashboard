@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import './TopDashboard'
 import TopDashboard from './TopDashboard';
@@ -12,24 +12,22 @@ import Down from './images/icon-down.svg';
 import Twitter from './images/icon-twitter.svg';
 import Instagram from './images/icon-instagram.svg';
 import YouTube from './images/icon-youtube.svg';
+import styled from 'styled-components';
 
-/* function App() {
-  return (
-   <TopDashboard />
-   <TopDashboard />
-   <TopDashboard />
-   <BigContainer />
-  );
-}; */
+
+
+
+
 
 
 const App = () => {
+
   return (
     <div className="TopPart">
       <TopDashboard />
       <div className="BCont">
-        <div className="box1">
-          <BigContainer image={FacebookIcon} user="@nathanf" number="1987" fallsub="followers" Up={Up} numberToday="12" />
+        <div className="box1" >
+          <BigContainer test image={FacebookIcon} user="@nathanf" number="1987" fallsub="followers" Up={Up} numberToday="12" />
         </div>
         <div className="box2">
           <BigContainer image={Twitter} user="@nathanf" number="1044" fallsub="followers" Up={Up} numberToday="12" />
@@ -48,54 +46,69 @@ const App = () => {
         </div>
         <div className="SCont">
           <div className="sbox">
+            <div className="positive">
 
-            <SmallContainer page="Page Views" image2={FacebookIcon} value="87" Up2={Up} procValue="3%" />
+              <SmallContainer page="Page Views" image2={FacebookIcon} value="87" Up2={Up} procValue="3%" />
+
+            </div>
 
           </div>
           <div className="sbox" >
-                <div className="negative">
+            <div className="negative">
 
-            <SmallContainer page="Likes" image2={FacebookIcon} value="52" Up2={Down} procValue="2%" />
+              <SmallContainer page="Likes" image2={FacebookIcon} value="52" Up2={Down} procValue="2%" />
 
-                </div>
+            </div>
+
+          </div>
+          <div className="sbox">
+            <div className="positive">
+
+              <SmallContainer page="Likes" image2={Instagram} value="5462" Up2={Up} procValue="2257%" />
+
+            </div>
+
+          </div>
+          <div className="sbox">
+            <div className="positive">
+
+              <SmallContainer page="Profile Views" image2={Instagram} value="52k" Up2={Up} procValue="1375%" />
+
+            </div>
 
           </div>
           <div className="sbox">
 
-            <SmallContainer page="Likes" image2={Instagram} value="5462" Up2={Up} procValue="2257%" />
+            <div className="positive">
+
+
+              <SmallContainer page="Retweets" image2={Twitter} value="117" Up2={Up} procValue="303%" />
+            </div>
+          </div>
+          <div className="sbox">
+            <div className="positive">
+
+              <SmallContainer page="Likes" image2={Twitter} value="507" Up2={Up} procValue="553%" />
+
+            </div>
 
           </div>
           <div className="sbox">
 
-            <SmallContainer page="Profile Views" image2={Instagram} value="52k" Up2={Up} procValue="1375%" />
+            <div className="negative">
+
+
+              <SmallContainer page="Likes" image2={YouTube} value="107" Up2={Down} procValue="19%" />
+            </div>
 
           </div>
           <div className="sbox">
 
+            <div className="negative">
 
-            <SmallContainer page="Retweets" image2={Twitter} value="117" Up2={Up} procValue="303%" />
-          </div>
-          <div className="sbox">
+              <SmallContainer page="Total Views" image2={YouTube} value="1407" Up2={Down} procValue="12%" />
 
-            <SmallContainer page="Likes" image2={Twitter} value="507" Up2={Up} procValue="553%" />
-
-          </div>
-          <div className="sbox">
-
-                <div className="negative">
-
-
-            <SmallContainer page="Likes" image2={YouTube} value="107" Up2={Down} procValue="19%" />
-                </div>
-
-          </div>
-          <div className="sbox">
-
-                <div className="negative">
-
-            <SmallContainer page="Total Views" image2={YouTube} value="1407" Up2={Down} procValue="12%" />
-
-                </div>
+            </div>
 
           </div>
         </div>
