@@ -45,4 +45,20 @@
     color: var(--DesaturatedBlueText);
 }
 
+@media only screen and (max-width: 375px) {
+   .containerB {
+    width: 45vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 5vh;
+    margin-left: 1.5vh;
+    border-top: chocolate solid 2px;
+
+
+}
+ 
+}
+
+
+
 

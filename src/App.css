@@ -105,7 +105,26 @@ body {
 }
 
 
+@media only screen and (max-width: 375px) {
+  .BCont {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 2vh 2vh 2vh;
+    justify-items: center;
+  }
 
+  .box1, .box2, .box3, .box4 {
+    border-top: none;
+  }
+
+  .SCont {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 1vh 1vh 1vh;
+    justify-items: center;
+  }
+}
 
 /* # Front-end Style Guide
 

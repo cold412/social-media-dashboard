@@ -19,3 +19,24 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 375px) {
+    .mediaContainer{
+        display: block;
+        padding: 3vh;
+    }
+    .left h1 {
+        font-size: 4vh;
+    }
+
+    .left h3{
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-bottom: 2vh;
+        border-bottom: var(--DesaturatedBlueText) 0.5px solid;
+    }
+
+    .switch{
+        font-size: 2vh;
+        padding-top: 2vh;
+    }
+  }

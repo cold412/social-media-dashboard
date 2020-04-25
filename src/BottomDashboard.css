@@ -6,3 +6,14 @@
 .mediacontbottom {
     color: var(--WhiteText);
 }
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .mediaContainer2{
+        display: block;
+        padding: 3vh;
+        font-size: 2vh;
+    }
+  }
